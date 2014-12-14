@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="55dip"
+        android:layout_height="50dp" android:scaleType="fitXY"
+        android:layout_marginLeft="4dip"
+        android:layout_marginRight="10dip"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_launcher" >
+    </ImageView>
+
+    <com.triumph.momscookbook.views.MyTextView
+        android:id="@+id/recipetitle"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:text="@+id/label"
+        android:textSize="28sp" >
+    </com.triumph.momscookbook.views.MyTextView>
+
+</LinearLayout>
